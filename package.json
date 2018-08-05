@@ -1,0 +1,18 @@
+{
+  "name": "javascripttraining",
+  "version": "1.0.0",
+  "description": "JavaScript 102",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --color --compilers js:babel-register --recursive \"src/**/*.spec.js\""
+  },
+  "author": "Brian Byassee",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "expect": "^21.2.1",
+    "mocha": "^4.0.1"
+  }
+}
